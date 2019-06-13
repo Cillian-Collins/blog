@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 I use Twitter.
-[https://twitter.com/loosesecurity](@LooseSecurity)
+[@LooseSecurity](https://twitter.com/loosesecurity)
