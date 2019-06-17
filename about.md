@@ -8,3 +8,5 @@ Hi, my name is m0z! I'm an Irish hacker with a passion for cryptography, bug bou
 ### Contact me
 I use Twitter.
 [@LooseSecurity](https://twitter.com/loosesecurity)
+I use Discord.
+[Discord](https://discord.gg/qStuRZS)
