@@ -11,7 +11,9 @@ This vulnerability just so happens to be the very same one that my 2nd challenge
 
 Lets take it back to where it all started. I think this vulnerability emphasizes the fact that every little piece of information can be useful at a later date. I noticed that the website I was testing was reflecting the input of a parameter inside of an input tag. This is pretty standard behaviour and it looked something like:
 
-```<input name="param1" value=$param1>```
+```
+<input name="param1" value=$param1>
+```
 
 The idea is that the corresponding value of the GET parameter `param1` is reflected into the above input box's value. The input is escaped correctly, so the tag cannot be closed, and furthermore the characters `>` and `<` are completely blocked by the WAF making it virtually impossible to spawn your own HTML tags.
 The one detail you might notice about this scenario is the the value of `$param1` is not enclosed within any quotations, meaning that we can spawn a new attribute on that very same input tag by dropping a space.
