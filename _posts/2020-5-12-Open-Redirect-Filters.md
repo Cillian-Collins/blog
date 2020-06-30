@@ -3,7 +3,7 @@ layout: post
 title: Open Redirect Filters
 ---
 
-Initial apologies for the lack of blog posts here. I'm currently in school and hence there exists a lack of opportunity for me to write these posts. Today I'm writing about Open Redirect bypasses since it was my first bug I have found since returning. One I normally don't bother reporting as it's not usually very high paying and damages impacts ratings on H1. Nonetheless, Open Redirects are a nice starting point for any security researcher and it seems almost all of them require a filter bypass.
+Initial apologies for the lack of blog posts here. I'm currently in school and finding it hard to allocate sufficient time to write these posts. Today I'm writing about Open Redirect bypasses since it was my first bug I have found since returning. One I normally don't bother reporting as it's not usually very high paying and damages impacts ratings on H1. Nonetheless, Open Redirects are a nice starting point for any security researcher and it seems almost all of them require a filter bypass.
 
 ## Locating Endpoints
 
